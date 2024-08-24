@@ -72,11 +72,11 @@ object pepon {
 
 // ## Ejercicio 2: Roque
 object roque {
-	var ave = Pepita
+	var ave = pepita
 	var cantidadDeCenas = 0
 
 	// Getter - Consulta
-	method aveQuTiene() {
+	method aveQueTiene() {
 		return ave
 	}
 
