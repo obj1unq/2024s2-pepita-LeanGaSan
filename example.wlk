@@ -72,3 +72,22 @@ object pepon {
 
 // ## Ejercicio 2: Roque
 object roque {
+	var ave = Pepita
+	var cantidadDeCenas = 0
+
+	// Getter - Consulta
+	method aveQuTiene() {
+		return ave
+	}
+
+	// Setter - Orden
+	method alimentar(comida) {
+		ave.comer(comida)
+		cantidadDeCenas = cantidadDeCenas + 1
+	}
+
+	// Getter - Consulta
+	method cenas() {
+		return cantidadDeCenas	
+	}
+}
